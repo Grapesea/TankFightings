@@ -50,13 +50,12 @@
 1. 容易出现两个坦克初始处于相邻网格内，然后同时转身发射同时死掉的垃圾局；
 
 2. 屏障空间利用率很低（见下图），有可能初始获得的地图有效面积占比不足；
-3. <img src="E:\TankFightings\README_photos\1.png" alt="1" style="zoom:50%;" />
 
-
+  <img src="README_photos\1.png" alt="1" style="zoom:50%;" />
 
 3. 随机生成的地图太小，容易马上结束，没有那种慢慢钓鱼运筹帷幄的爽感.
 
-   <img src="E:\TankFightings\README_photos\2.png" alt="2" style="zoom: 33%;" />
+   <img src="README_photos\2.png" alt="2" style="zoom: 33%;" />
 
 综上，最好预置10张以上的地图（大小为8×8，12×8，12×12等，没有浪费空间，且设定尽可能四通八达一点），进入游戏后随机产出一张地图，同时所有玩家的初始刷新地点尽可能随机分布在四个边角上，避免开局即结束.
 
